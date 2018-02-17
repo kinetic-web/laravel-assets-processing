@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "watch": "node ./build.js --watch",
+    "build": "node ./build.js --dev",
+    "build-prod": "node ./build.js --prod"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "css-loader": "*",
+    "extract-text-webpack-plugin": "*",
+    "copy-webpack-plugin": "*",
+    "less": "*",
+    "less-loader": "*",
+    "style-loader": "*",
+    "stylus-loader": "*",
+    "file-loader": "*",
+    "webpack": "*",
+    "md5-file": "*",
+    "setimmediate": "*",
+    "child_process": "*"
+  }
+}
